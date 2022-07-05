@@ -1,16 +1,13 @@
 <template>
     <div>
+        Add Component
     </div>
 </template>
 
 <script>
 
 export default {
-    name: 'UpdateComponent'
+    name: 'AddComponent'
 
 }
 </script>
-
-<style scoped>
-
-</style>

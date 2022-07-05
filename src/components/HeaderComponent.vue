@@ -2,9 +2,9 @@
     <div>
         <nav class="navbar navbar-expand-sm navbar-dark bg-info mb-2" >
         <div class="container">
-            <a href="#" class="navbar-brand"> Home </a>
-            <a href="#" class="navbar-brand"> Add Restaurant </a>
-            <a href="#" class="navbar-brand"> Update Restaurant </a>
+            <router-link to="/" class="navbar-brand"> Home </router-link>
+            <router-link to="/add" class="navbar-brand"> Add Restaurant </router-link>
+            <router-link to="/update" class="navbar-brand"> Update Restaurant </router-link>
             <a v-on:click="logout" href="#" class="navbar-item logout"> Logout </a>
         </div>
     </nav>

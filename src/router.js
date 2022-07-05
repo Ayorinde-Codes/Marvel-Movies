@@ -2,6 +2,8 @@ import Home from './components/HomeComponent.vue';
 import SignUp from './components/SignUpComponent.vue';
 import Login from './components/LoginComponent.vue';
 import Update from './components/UpdateComponent.vue';
+import Add from './components/AddComponent.vue';
+
 import {createRouter, createWebHistory} from 'vue-router';
 
 const routes = [
@@ -9,6 +11,11 @@ const routes = [
         name: 'Home',
         component: Home,
         path: '/',
+    },
+    {
+        name: 'Add',
+        component: Add,
+        path: '/add',
     },
     {
         name: 'Update',

@@ -39,7 +39,7 @@
         methods: {
             async signUp() {
                 
-                let result = await axios.post('http://localhost:8001/api/register', { 
+                let result = await axios.post('http://localhost:8000/api/register', { 
                         name : this.name,
                         email : this.email,
                         password : this.password 

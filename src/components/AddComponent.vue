@@ -1,18 +1,17 @@
 <template>
-    <div>
-        <header-component />
-        Add Component
-    </div>
+  <div>
+    <header-component />
+    Add Component
+  </div>
 </template>
 
 <script>
-import HeaderComponent from './HeaderComponent.vue';
+import HeaderComponent from "./HeaderComponent.vue";
 
 export default {
-    name: 'AddComponent',
-    components:{
-        HeaderComponent
-    },
-}
-
+  name: "AddComponent",
+  components: {
+    HeaderComponent,
+  },
+};
 </script>

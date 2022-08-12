@@ -36,7 +36,7 @@ export default {
       if (result.status == 200) {
         this.restaurants = result.data.data;
       } else {
-        alert("Error");
+        console.log("Error");
       }
     },
   },

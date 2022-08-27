@@ -2,6 +2,20 @@
   <div>
     <header-component />
     Welcome {{ name }} to Restaurant Api
+    <table border="1">
+      <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Contact</td>
+        <td>Address</td>
+      </tr>
+      <tr v-for="item in restaurants" :key="item.id">
+        <td>{{ item.id }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.contact }}</td>
+        <td>{{ item.address }}</td>
+      </tr>
+    </table>
   </div>
 </template>
 
@@ -27,7 +41,7 @@ export default {
     if (!user) {
       this.$router.push({ name: "SignUp" });
     }
-    getRestaurants();
+    this.getRestaurants();
   },
 
   methods: {

@@ -57,4 +57,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+td {
+  width: 160px;
+  height: 40px;
+  background: #edece6;
+}
+</style>
